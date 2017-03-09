@@ -4,6 +4,8 @@ It is an iOS Application that provides directions between two places on a map. T
 
 ### 1.	App permission
 Provide the following permissions to let the app access your voice input.
+![Access Speech Reco](IMG_3356.PNG "")
+![alt text](screenshots/filename.png "Description goes here")
 
 ### 2.	Speech to Text Screen
 Select the mic button and say what you would like to see in the map in the following format.
@@ -19,17 +21,27 @@ The above 3 template text is parsed where the program looks for the keyword to a
 
 ### 3.	Find direction
 Say ***“Find directions from Fremont California to San Jose California”***. The location information is displayed in a mapview.
+
+![alt text](screenshots/filename.png "Description goes here")
      
 ### 4.	Find route
 Say ***“Find route from LA California to San Jose California”***
+
+![alt text](screenshots/filename.png "Description goes here")
     
 ### 5.	Let’s Go
 Say ***“Let’s go to San Jose State University”***. In this case the user’s current location is picked and used as the source location. This requires the user to grant the app permission to access the user’s current location.
 
+![alt text](screenshots/filename.png "Description goes here")
+
 Say ***“Let’s go to LA California”***
+
+![alt text](screenshots/filename.png "Description goes here")
 
 ### 6.	Searches stored in Flat File
 All the searches are stored in a flat file for future references
+
+![alt text](screenshots/filename.png "Description goes here")
  
 
 
