@@ -15,11 +15,6 @@ If the User's speech string contains any of the above words, then the applicatio
 ***["go to","goto", "route to"]***
 When the user's speech string contains any of the following words, it finds the word adjacent to it as destination address. If this is missing then the user is prompted to reenter speech.
 
-
-#### Template 4: Let’s go to [destination location]
-#### Template 5: go to [destination location]
-#### Template 6: goto [destination location]
-#### Template 7: route to [destination location]
 The above 3 template text is parsed where the program looks for the keyword to and finds the text following it and takes the current location as source location.
 
 ### 3.	Find direction
