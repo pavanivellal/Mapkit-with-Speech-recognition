@@ -1,6 +1,9 @@
 # Mapkit-with-Speech-recognition
 It is an iOS Application that provides directions between two places on a map. The application chooses to show direction between 2 places mentioned or from current location to destination based on the speech input of the user. The application is designed to recognize the user's intention from the speech and provides directions accordingly. I have made use of MapKit and Speech recognition in this application. All of the users searches are stored in a flat file for enhancing speech recognition. 
 
+### Swift Version: 3.0.2
+### XCode Version: 8.2 beta
+
 
 ### 1.	App permission
 Provide the following permissions to let the app access your voice input.
