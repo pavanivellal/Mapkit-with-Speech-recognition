@@ -178,8 +178,8 @@ class SpeechViewController: UIViewController,SFSpeechRecognizerDelegate {
     
     func openMaps()
     {
-        self.fullText = "find directions from fremont California to LA California"
-        //self.sp.setText1(fullText: (self.fullText))
+        //self.fullText = "find directions from fremont California to LA California"
+        self.sp.setText1(fullText: (self.fullText))
         var saveFile = FileOperations()
         if self.sp.fromPlace.isEmpty {
             saveFile.saveData(data: "From My Current Location to \(self.sp.toPlace)/n")

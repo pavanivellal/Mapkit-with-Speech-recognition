@@ -7,10 +7,15 @@ Provide the following permissions to let the app access your voice input.
 
 ### 2.	Speech to Text Screen
 Select the mic button and say what you would like to see in the map in the following format.
-#### Template 1: Find directions from [source location] to [destination location]
-#### Template 2: Find directions between [source location] to [destination location]
-#### Template 3: Find route between [source location] to [destination location]
-The above 3 template text is parsed where the program looks for the keywords from and to and finds the words between them to show in the map. 
+#### FROM words
+***["from", "directions from","direction from","direction between", "route between"]***
+If the User's speech string contains any of the above words, then the application picks up the word adjacent to it as the from address location. If words from the above array are not found, then the application picks up the current location as the source address. 
+
+####TO words
+***["go to","goto", "route to"]***
+When the user's speech string contains any of the following words, it finds the word adjacent to it as destination address. If this is missing then the user is prompted to reenter speech.
+
+
 #### Template 4: Let’s go to [destination location]
 #### Template 5: go to [destination location]
 #### Template 6: goto [destination location]
