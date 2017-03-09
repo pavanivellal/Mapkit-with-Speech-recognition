@@ -4,11 +4,13 @@ It is an iOS Application that provides directions between two places on a map. T
 
 ### 1.	App permission
 Provide the following permissions to let the app access your voice input.
-![Access Speech Reco](IMG_3356.PNG "")
-![alt text](screenshots/filename.png "Description goes here")
+
+<img src="img/IMG_3356.PNG" width="250px" height="400px" />
+<img src="img/IMG_3358.PNG" width="250px" height="400px" />
 
 ### 2.	Speech to Text Screen
 Select the mic button and say what you would like to see in the map in the following format.
+
 #### FROM words
 ***["from", "directions from","direction from","direction between", "route between"]***
 If the User's speech string contains any of the above words, then the application picks up the word adjacent to it as the from address location. If words from the above array are not found, then the application picks up the current location as the source address. 
@@ -17,31 +19,34 @@ If the User's speech string contains any of the above words, then the applicatio
 ***["go to","goto", "route to"]***
 When the user's speech string contains any of the following words, it finds the word adjacent to it as destination address. If this is missing then the user is prompted to reenter speech.
 
-The above 3 template text is parsed where the program looks for the keyword to and finds the text following it and takes the current location as source location.
+The text is parsed where the program looks for the keyword to and finds the text following in it and takes the current location as source location.
+
+<img src="img/IMG_3357.PNG" width="250px" height="400px" />
 
 ### 3.	Find direction
 Say ***“Find directions from Fremont California to San Jose California”***. The location information is displayed in a mapview.
 
-![alt text](screenshots/filename.png "Description goes here")
+<img src="img/IMG_3359.PNG" width="250px" height="400px" />
+<img src="img/IMG_3360.PNG" width="250px" height="400px" />
      
 ### 4.	Find route
 Say ***“Find route from LA California to San Jose California”***
 
-![alt text](screenshots/filename.png "Description goes here")
+<img src="img/IMG_3361.PNG" width="250px" height="400px" />
+<img src="img/IMG_3362.PNG" width="250px" height="400px" />
     
 ### 5.	Let’s Go
 Say ***“Let’s go to San Jose State University”***. In this case the user’s current location is picked and used as the source location. This requires the user to grant the app permission to access the user’s current location.
 
-![alt text](screenshots/filename.png "Description goes here")
-
 Say ***“Let’s go to LA California”***
 
-![alt text](screenshots/filename.png "Description goes here")
+<img src="img/IMG_3365.PNG" width="250px" height="400px" />
+<img src="img/IMG_3367.PNG" width="250px" height="400px" />
 
 ### 6.	Searches stored in Flat File
 All the searches are stored in a flat file for future references
 
-![alt text](screenshots/filename.png "Description goes here")
+<img src="img/storagefile.png" width="250px" height="400px" />
  
 
 
