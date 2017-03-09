@@ -46,7 +46,7 @@ Say ***“Let’s go to LA California”***
 ### 6.	Searches stored in Flat File
 All the searches are stored in a flat file for future references
 
-<img src="img/storagefile.png" width="250px" height="400px" />
+<img src="img/storage file.png" width="600px" height="400px" />
  
 
 
